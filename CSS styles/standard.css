@@ -1,6 +1,5 @@
-body{display:grid;
-grid-template-columns:1fr 1fr 1fr;
-grid-template-rows: 1fr auto;
+body{
+
 background: green;
 border: 2px solid black;
 text-decoration: 80px white center arial ;
@@ -21,12 +20,20 @@ text-decoration: 80px white center arial ;
 .point1{
   background: green;  
   border: red solid 1px;  
+  text-align: center;
 }
 .point2{
   background: blue;
   border: black solid 1px;
+  text-align: center;
 }
 .point3{
    background: red;
    border: blue dotted 3px;
+   text-align: center;
+}
+.container{
+  margin-left: 30%;
+  margin-right: 30%
+
 }
