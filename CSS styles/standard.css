@@ -3,6 +3,7 @@ grid-template-columns:1fr 1fr 1fr;
 grid-template-rows: 1fr auto;
 background: green;
 border: 2px solid black;
+text-decoration: 80px white center arial ;
 }
 
 .point:hover{border: 1px solid red;
@@ -16,5 +17,16 @@ border: 2px solid black;
       "header header header"
       "aside body aside "
 
-
     }
+.point1{
+  background: green;  
+  border: red solid 1px;  
+}
+.point2{
+  background: blue;
+  border: black solid 1px;
+}
+.point3{
+   background: red;
+   border: blue dotted 3px;
+}
